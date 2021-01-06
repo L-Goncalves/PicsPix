@@ -1,0 +1,17 @@
+import { VMessageModule } from './../shared/components/vmessage/vmessage.module';
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { SignInComponent } from './signIn/signIn.component';
+import { ReactiveFormsModule } from "@angular/forms";
+@NgModule({
+    declarations: [SignInComponent],
+    imports: [
+        ReactiveFormsModule,
+        CommonModule,
+        VMessageModule
+    ]
+})
+
+export class HomeModule{
+
+}
